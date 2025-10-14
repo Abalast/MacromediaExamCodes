@@ -1,0 +1,3 @@
+﻿  PracticalExercises.cpp
+C:\Projects\c++\PracticalExercises\PracticalExercises\PracticalExercises.cpp(84,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PracticalExercises.vcxproj -> C:\Projects\c++\PracticalExercises\x64\Debug\PracticalExercises.exe

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\c\u002B\u002B\\Tech-Priest-Support\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6777EE9A-D50E-4A7B-8AC9-084CF238DFA0}|Tech-Priest-Support\\Tech-Priest-Support.vcxproj|C:\\Projects\\c\u002B\u002B\\Tech-Priest-Support\\Tech-Priest-Support\\Tech-Priest-Support.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6777EE9A-D50E-4A7B-8AC9-084CF238DFA0}|Tech-Priest-Support\\Tech-Priest-Support.vcxproj|solutionrelative:Tech-Priest-Support\\Tech-Priest-Support.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tech-Priest-Support.cpp",
+              "DocumentMoniker": "C:\\Projects\\c\u002B\u002B\\Tech-Priest-Support\\Tech-Priest-Support\\Tech-Priest-Support.cpp",
+              "RelativeDocumentMoniker": "Tech-Priest-Support\\Tech-Priest-Support.cpp",
+              "ToolTip": "C:\\Projects\\c\u002B\u002B\\Tech-Priest-Support\\Tech-Priest-Support\\Tech-Priest-Support.cpp",
+              "RelativeToolTip": "Tech-Priest-Support\\Tech-Priest-Support.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T13:58:01.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

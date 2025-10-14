@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\c\u002B\u002B\\PracticalExercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BE67E79-8B83-44EC-9EA6-1179515DF9AC}|PracticalExercises\\PracticalExercises.vcxproj|C:\\Projects\\c\u002B\u002B\\PracticalExercises\\PracticalExercises\\PracticalExercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1BE67E79-8B83-44EC-9EA6-1179515DF9AC}|PracticalExercises\\PracticalExercises.vcxproj|solutionrelative:PracticalExercises\\PracticalExercises.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PracticalExercises.cpp",
+              "DocumentMoniker": "C:\\Projects\\c\u002B\u002B\\PracticalExercises\\PracticalExercises\\PracticalExercises.cpp",
+              "RelativeDocumentMoniker": "PracticalExercises\\PracticalExercises.cpp",
+              "ToolTip": "C:\\Projects\\c\u002B\u002B\\PracticalExercises\\PracticalExercises\\PracticalExercises.cpp",
+              "RelativeToolTip": "PracticalExercises\\PracticalExercises.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-14T18:05:55.293Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
