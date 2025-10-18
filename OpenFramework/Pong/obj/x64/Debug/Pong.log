@@ -1,7 +1,0 @@
-﻿  Scanning sources for module dependencies...
-  ofApp.cpp
-LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
-     Creating library bin\Pong_debug.lib and object bin\Pong_debug.exp
-  Pong.vcxproj -> C:\Projects\c++\Openframework\Pong\bin\Pong_debug.exe
-  Datei *.dll nicht gefunden
-  0 Datei(en) kopiert
