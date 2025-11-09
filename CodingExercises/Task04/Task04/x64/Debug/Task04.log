@@ -1,0 +1,3 @@
+﻿  Task04.cpp
+C:\Projects\GitHub\MacromediaExamCodes\CodingExercises\Task04\Task04\Task04.cpp(124,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Task04.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\CodingExercises\Task04\x64\Debug\Task04.exe
