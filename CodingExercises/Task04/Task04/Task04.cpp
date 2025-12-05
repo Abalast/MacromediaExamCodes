@@ -1,4 +1,4 @@
-#include <iostream> // Wir brauchen diese libary um  cout zu verwenden.
+#include <iostream> // Wir brauchen dies mne libary um  cout zu verwenden.
 #include <cstdlib> // Wir brauchen diese Libary um Rand() zu benutzen.
 
 

@@ -1,0 +1,7 @@
+﻿  Scanning sources for module dependencies...
+  ofApp.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     Creating library bin\myKeenSketch_debug.lib and object bin\myKeenSketch_debug.exp
+  myKeenSketch.vcxproj -> C:\Users\Abalast8899\Desktop\myKeenSketch\bin\myKeenSketch_debug.exe
+  0 Datei(en) kopiert
+  Datei *.dll nicht gefunden
