@@ -7,9 +7,8 @@ void ofApp::setup(){
 	posPlayer.x = 100;
 	posPlayer.y = 100;
 
-	posPlayer = ofVec2f(100, 100);
 	velocityX = 1;
-	velocityY = 1;
+	velocityY = 0;
 	playerRadius = 30;
 
 	// Circle
@@ -53,6 +52,9 @@ void ofApp::update(){
 	{
 		changeRectColor = false;
 	}
+
+	if(rectLeft.intersects(rectLeft))
+		ofLog() << "Collision with Squares!";
 
 	if (CheckCollisionWithRectangle(posPlayer, playerRadius, rectLeft) || CheckCollisionWithRectangle(posPlayer, playerRadius, rectRight))
 	{
@@ -101,7 +103,7 @@ void ofApp::draw(){
 bool ofApp::CheckCollisionWithRectangle(ofVec2f pos, float posRadius ,ofRectangle rect)
 {
 	// Circle vs Rectangle (right wall)
-	float closestX = ofClamp(pos.x, rect.getX(), rect.getX() + rect.getWidth());
+	float closestX = ofClamp(pos.x, rect.x, rect.getX() + rect.getWidth());
 	float closestY = ofClamp(pos.y, rect.getY(), rect.getY() + rect.getHeight());
 	float distanceX = pos.x - closestX;
 	float distanceY = pos.y - closestY;

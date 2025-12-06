@@ -1,7 +1,7 @@
-﻿  Scanning sources for module dependencies...
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (obj\x64\Debug\) contains files shared from another project (myKeenSketch.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   ofApp.cpp
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
-     Creating library bin\myKeenSketch_debug.lib and object bin\myKeenSketch_debug.exp
-  myKeenSketch.vcxproj -> C:\Users\Abalast8899\Desktop\myKeenSketch\bin\myKeenSketch_debug.exe
-  0 Datei(en) kopiert
+     Creating library bin\CollisonExample_debug.lib and object bin\CollisonExample_debug.exp
+  myKeenSketch.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\myKeenSketch\bin\CollisonExample_debug.exe
   Datei *.dll nicht gefunden
+  0 Datei(en) kopiert
