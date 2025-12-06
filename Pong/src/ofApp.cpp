@@ -60,7 +60,7 @@ void ofApp::update() {
     if (ballPos.y < rightPaddle.y + paddleHeight / 2)
     {
         float targetY = ballPos.y - paddleHeight / 2;
-        rightPaddle.y = ofLerp(rightPaddle.y, targetY, 0.05); //Lerp is used to make the movement of the AI more smooth. For more information look up interpolation.
+        rightPaddle.y = ofLerp(rightPaddle.y, targetY, 0.05); //The Lerp function is used to make the AI's movements smoother. For more information, look up 'interpolation'.
     }
     else if (ballPos.y > rightPaddle.y + paddleHeight / 2)
     {
@@ -72,7 +72,7 @@ void ofApp::update() {
     if (ballPos.x < 0) {
         rightScore++;
         ballPos.set(ofGetWidth() / 2, ofGetHeight() / 2);
-        ballVel.set(ofRandom(-5, 5), ofRandom(-3, 3));
+        ballVel.set(ofRandom(3, 5) * (ofRandom(1) > 0.5 ? 1 : -1), ofRandom(-3, 3)); //Fancy code to give ballVel different starting velocity
     }
     else if (ballPos.x > ofGetWidth()) {
         leftScore++;
@@ -122,11 +122,11 @@ void ofApp::HandleCollision()
 
     // Left paddle collision
     if (CheckCollisionWithRectangle(ballPos, ballRadius, leftPaddle))
-        ballVel.x *= -1;
+        ballVel.x *= -1.05;
 
     // Right paddle collision
     if (CheckCollisionWithRectangle(ballPos, ballRadius, rightPaddle))
-        ballVel.x *= -1;
+        ballVel.x *= -1.05;
 
     // Just making sure, that the paddles leaves the window.
     leftPaddle.y = ofClamp(leftPaddle.y, 0, ofGetHeight() - paddleHeight);
