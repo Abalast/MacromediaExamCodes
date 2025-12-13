@@ -1,0 +1,6 @@
+﻿  ofApp.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     Creating library bin\Space Invader_debug.lib and object bin\Space Invader_debug.exp
+  Space Invader.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\Space Invader\bin\Space Invader_debug.exe
+  Datei *.dll nicht gefunden
+  0 Datei(en) kopiert

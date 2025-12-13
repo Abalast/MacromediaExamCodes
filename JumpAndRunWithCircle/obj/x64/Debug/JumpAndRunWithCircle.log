@@ -1,0 +1,8 @@
+﻿  Scanning sources for module dependencies...
+  main.cpp
+  ofApp.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     Creating library bin\JumpAndRunWithCircle_debug.lib and object bin\JumpAndRunWithCircle_debug.exp
+  JumpAndRunWithCircle.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\JumpAndRunWithCircle\bin\JumpAndRunWithCircle_debug.exe
+  Datei *.dll nicht gefunden
+  0 Datei(en) kopiert

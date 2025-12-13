@@ -3,5 +3,5 @@
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      Creating library bin\CollisonExample_debug.lib and object bin\CollisonExample_debug.exp
   myKeenSketch.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\myKeenSketch\bin\CollisonExample_debug.exe
-  Datei *.dll nicht gefunden
   0 Datei(en) kopiert
+  Datei *.dll nicht gefunden
