@@ -1,5 +1,6 @@
 ﻿  Scanning sources for module dependencies...
   ofApp.cpp
+C:\Projects\GitHub\MacromediaExamCodes\JumpAndRunWithCircle\src\ofApp.cpp(113,3): warning C4551: function call missing argument list
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      Creating library bin\JumpAndRunWithCircle_debug.lib and object bin\JumpAndRunWithCircle_debug.exp
   JumpAndRunWithCircle.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\JumpAndRunWithCircle\bin\JumpAndRunWithCircle_debug.exe

@@ -102,7 +102,20 @@ void ofApp::draw(){
 	//Player 
 	ofEnableAlphaBlending();
 	ofSetColor(255); // Full white, no tint
-	ofDrawCircle(playerPos.x, playerPos.y, playerRadius);
+	//ofDrawCircle(playerPos.x, playerPos.y, playerRadius);
+
+	if (facingLeft)
+	{
+		ofPushMatrix();
+		ofTranslate(playerPos.x + playerRadius, playerPos.y); // shift origin to right edge
+		ofScale(-1, 1); // flip horizontally
+		playerSprite.draw(0, 0, playerRadius, playerRadius);
+		ofPopMatrix;
+	}
+	else
+	{
+		playerSprite.draw(playerPos.x, playerPos.y, playerRadius, playerRadius);
+	}
 
 }
 
