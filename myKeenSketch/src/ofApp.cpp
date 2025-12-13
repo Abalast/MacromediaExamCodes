@@ -62,12 +62,12 @@ void ofApp::update(){
 		velocityX *= -1;
 	}
 
-	//if (CheckWindowCollision(posPlayer, playerRadius))
-	//{
-	//	ofLog() << "Collision with wall!";
-	//	velocityX *= -1;
-	//	velocityY *= -1;
-	//}
+	if (CheckWindowCollision(posPlayer, playerRadius))
+	{
+		ofLog() << "Collision with wall!";
+		velocityX *= -1;
+		velocityY *= -1;
+	}
 
 }
 

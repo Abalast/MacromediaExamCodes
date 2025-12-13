@@ -1,6 +1,5 @@
-﻿  main.cpp
-  ofApp.cpp
-C:\Projects\GitHub\MacromediaExamCodes\JumpAndRun\src\ofApp.cpp(129,3): warning C4551: function call missing argument list
+﻿  ofApp.cpp
+C:\Projects\GitHub\MacromediaExamCodes\JumpAndRun\src\ofApp.cpp(130,3): warning C4551: function call missing argument list
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      Creating library bin\JumpAndRun_debug.lib and object bin\JumpAndRun_debug.exp
   JumpAndRun.vcxproj -> C:\Projects\GitHub\MacromediaExamCodes\JumpAndRun\bin\JumpAndRun_debug.exe

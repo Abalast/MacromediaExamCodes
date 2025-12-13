@@ -11,17 +11,11 @@ class ofApp : public ofBaseApp{
 
 		void keyPressed(int key);
 		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
 
-		void HandleCircleRectCollision(const ofRectangle& rect);
+        //Collision
+        void HandleWindowCollision();
+		bool CheckCircleWithRectCollision(const ofRectangle& rect);
+        void HandleCircleWithRectCollision(const ofRectangle& rect);
 
         float framerate = 60.0f;
 
@@ -40,6 +34,7 @@ class ofApp : public ofBaseApp{
         //Player Animation
         ofImage playerSprite;
         bool facingLeft = false;
+
 
         // Level Physic
 
