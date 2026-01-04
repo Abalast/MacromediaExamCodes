@@ -1,0 +1,9 @@
+﻿  Scanning sources for module dependencies...
+  main.cpp
+  ofApp.cpp
+  ofObstacle.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     Creating library bin\Parallax-Project_debug.lib and object bin\Parallax-Project_debug.exp
+  Parallax-Project.vcxproj -> C:\Users\Abalast\Desktop\Parallax-Project\bin\Parallax-Project_debug.exe
+  Datei *.dll nicht gefunden
+  0 Datei(en) kopiert
